@@ -1,3 +1,4 @@
+Version 0.00.01 Developed By Siddhant Baliyan
 # Atlas
 game designed primarly for students for knowledge of geographical locations 
 
