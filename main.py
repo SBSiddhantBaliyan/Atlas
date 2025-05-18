@@ -1,12 +1,5 @@
-from pymongo import MongoClient
 import random
-# Connect to MongoDB and load locations from the 'world' database
-client = MongoClient("mongodb://localhost:27017/")
-db = client["world"]
-locations_collection = db["locations"]
-
-# Fetch all location names from the MongoDB collection
-locations = {doc["name"] for doc in locations_collection.find({}, {"_id": 0, "name": 1})}
+from locations import locations
 
 class AtlasGame:
     def __init__(self):
