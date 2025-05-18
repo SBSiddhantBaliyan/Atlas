@@ -51,7 +51,7 @@ Your turn (start with 'L'):
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/atlas-game.git
+git clone https://github.com/yourusername/Atlas-Game.git
 cd atlas-game
 ```
 
